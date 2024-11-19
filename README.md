@@ -24,29 +24,31 @@ __The Content-Based Movie Recommendation System is a personalized application th
 ## System Architecture
 __Here’s the high-level workflow of the system:__
 
-1. User Registration/Login:
+1. __User Registration/Login:__
 Users register with their details and log in to access the system.
 
-2. Preference Collection:
+2. __Preference Collection:__
 Users input preferences such as genre, cast, or favorite directors.
 
-3. Recommendation Generation:
+3. __Recommendation Generation:__
 Using content-based filtering, movies similar to user preferences are recommended.
 
-4. Recommendation History:
-Users can view previously recommended movies in their history.__
+4. __Recommendation History:__
+Users can view previously recommended movies in their history.
 
 ***
 
 ## Installation
 __Follow these steps to run the project locally:__
 
-1. Clone the Repository:
-
+1. ___Clone the Repository:__
+<div class="code-container">
+        <button class="copy-button" onclick="copyCode()">Copy</button>
+        <pre><code id="code-snippet">
 git clone https://github.com/Toufik09114/movie-recommendation-system.git
+</div>
 
-
-2. Navigate to the Project Directory:
+2. __Navigate to the Project Directory:__
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -63,13 +65,12 @@ cd movie-recommendation-system
 </html>
 
 
-3. Install Dependencies: Install the required Python libraries using pip:
+3. __Install Dependencies: Install the required Python libraries using pip:__
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
 </head>
 <body>
     <div class="code-container">
@@ -81,7 +82,7 @@ pip install -r requirements.txt
 </html>
 
 
-4. Run the Application: Launch the Streamlit application:
+4. __Run the Application: Launch the Streamlit application:__
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -109,6 +110,7 @@ streamlit run app.py
 ***
 
 ## Screenshots
+
 __Login Page__
 ![Screenshot (14)](https://github.com/user-attachments/assets/4c9bef43-bd0d-4073-ad7d-c4b0b4565b0c)
 ***
