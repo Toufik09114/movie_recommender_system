@@ -144,8 +144,5 @@ Go to the original repository and open a Pull Request (PR) from your branch. Add
 ***
 
 ## Demo.
-[Watch the video]movie_recommendation_video.mp4
-<video width="320" height="240" controls>
-  <source src="movie_recommendation_video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[Watch the video][movie_recommendation_video.mp4](https://github.com/Toufik09114/movie_recommender_system/blob/main/movie_recommendation_video.mp4)
+
