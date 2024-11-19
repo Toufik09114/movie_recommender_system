@@ -12,12 +12,12 @@ __The Content-Based Movie Recommendation System is a personalized application th
 ***
 
 ## Technologies Used
-* Python: Backend logic and data processing.
-* Pandas: For data cleaning and manipulation.
-* Scikit-learn: Used for machine learning algorithms (cosine similarity).
-* Streamlit: Framework for creating the user interface.
-* Database: SQLite for user authentication and storing recommendation history.
-* hashlib: To encode the user password.
+* __Python:__ Backend logic and data processing.
+* __Pandas:__ For data cleaning and manipulation.
+* __Scikit-learn:__ Used for machine learning algorithms (cosine similarity).
+* __Streamlit:__ Framework for creating the user interface.
+* __Database:__ SQLite for user authentication and storing recommendation history.
+* __hashlib:__ To encode the user password.
 
 ***
 
@@ -52,22 +52,6 @@ git clone https://github.com/Toufik09114/movie-recommendation-system.git
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code Snippet with Copy Button</title>
-    <style>
-        .code-container {
-            position: relative;
-        }
-        .copy-button {
-            position: absolute;
-            top: 0;
-            right: 0;
-            padding: 5px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-    </style>
 </head>
 <body>
     <div class="code-container">
@@ -75,17 +59,6 @@ git clone https://github.com/Toufik09114/movie-recommendation-system.git
         <pre><code id="code-snippet">
 cd movie-recommendation-system
     </div>
-
-    <script>
-        function copyCode() {
-            var code = document.getElementById("code-snippet").innerText;
-            navigator.clipboard.writeText(code).then(function() {
-                alert("Code copied to clipboard!");
-            }, function(err) {
-                alert("Failed to copy code: ", err);
-            });
-        }
-    </script>
 </body>
 </html>
 
@@ -96,22 +69,7 @@ cd movie-recommendation-system
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code Snippet with Copy Button</title>
-    <style>
-        .code-container {
-            position: relative;
-        }
-        .copy-button {
-            position: absolute;
-            top: 0;
-            right: 0;
-            padding: 5px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-    </style>
+    
 </head>
 <body>
     <div class="code-container">
@@ -119,17 +77,6 @@ cd movie-recommendation-system
         <pre><code id="code-snippet">
 pip install -r requirements.txt
     </div>
-
-    <script>
-        function copyCode() {
-            var code = document.getElementById("code-snippet").innerText;
-            navigator.clipboard.writeText(code).then(function() {
-                alert("Code copied to clipboard!");
-            }, function(err) {
-                alert("Failed to copy code: ", err);
-            });
-        }
-    </script>
 </body>
 </html>
 
@@ -140,22 +87,6 @@ pip install -r requirements.txt
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code Snippet with Copy Button</title>
-    <style>
-        .code-container {
-            position: relative;
-        }
-        .copy-button {
-            position: absolute;
-            top: 0;
-            right: 0;
-            padding: 5px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-    </style>
 </head>
 <body>
     <div class="code-container">
@@ -163,17 +94,6 @@ pip install -r requirements.txt
         <pre><code id="code-snippet">
 streamlit run app.py
     </div>
-
-    <script>
-        function copyCode() {
-            var code = document.getElementById("code-snippet").innerText;
-            navigator.clipboard.writeText(code).then(function() {
-                alert("Code copied to clipboard!");
-            }, function(err) {
-                alert("Failed to copy code: ", err);
-            });
-        }
-    </script>
 </body>
 </html>
 
@@ -189,17 +109,17 @@ streamlit run app.py
 ***
 
 ## Screenshots
-Login Page
+__Login Page__
 ![Screenshot (14)](https://github.com/user-attachments/assets/4c9bef43-bd0d-4073-ad7d-c4b0b4565b0c)
+***
 
-
-Recommendation Screen
+__Recommendation Screen__
 ![Screenshot (15)](https://github.com/user-attachments/assets/0d3c7ca6-a3c8-4f5a-92f2-9b58109a6565)
 ![Screenshot (16)](https://github.com/user-attachments/assets/3a437284-c04b-4258-9293-5f9c05571c14)
 
+***
 
-
-History Tab
+__History Tab__
 ![Screenshot (19)](https://github.com/user-attachments/assets/98fa9ca6-ea5d-4a44-b41e-7de7d1ae2371)
 
 ***
@@ -224,3 +144,16 @@ Contributions are welcome! To contribute:
 
 ## Demo.
 [Watch the video](https://github.com/Toufik09114/movie_recommender_system/blob/main/movie_recommendation_video.mp4)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <video width="320" height="240" controls>
+  <source src="path/to/your/video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+    </video>
+</body>
+</html>
