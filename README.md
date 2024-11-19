@@ -44,32 +44,24 @@ Users can view previously recommended movies in their history.
 __Follow these steps to run the project locally:__
 
 1. ___Clone the Repository:__
-<div class="code-container">
-        <button class="copy-button" onclick="copyCode()">Copy</button>
-        <pre><code id="code-snippet">
+```bash
 git clone https://github.com/Toufik09114/movie-recommendation-system.git
-</div>
+```
 
 2. __Navigate to the Project Directory:__
-<div class="code-container">
-        <button class="copy-button" onclick="copyCode()">Copy</button>
-        <pre><code id="code-snippet">
+```bash
 cd movie-recommendation-system
-</div>
+```
 
 3. __Install Dependencies: Install the required Python libraries using pip:__
-<div class="code-container">
-        <button class="copy-button" onclick="copyCode()">Copy</button>
-        <pre><code id="code-snippet">
+```bash
 pip install -r requirements.txt
-</div>
+```
 
 4. __Run the Application: Launch the Streamlit application:__
-<div class="code-container">
-        <button class="copy-button" onclick="copyCode()">Copy</button>
-        <pre><code id="code-snippet">
+```bash
 streamlit run app.py
-</div>
+```
 ___ 
                 
 ## Usage
@@ -106,8 +98,6 @@ _Description: The screen displays the top 5 movie recommendations with relevant 
 ![Screenshot (19)](https://github.com/user-attachments/assets/98fa9ca6-ea5d-4a44-b41e-7de7d1ae2371) 
 _Description: The history tab shows the user’s past movie recommendations._
 
-*(Replace `path/to/screenshot.png` with the actual file paths to your images.)*
-
 ---
 
 ## Future Enhancements
@@ -128,6 +118,7 @@ Contributions are welcome! To contribute:
 To make your changes, create a new branch using the following command:
 ```bash
  git checkout -b feature-branch-name
+```
 
 Replace feature-branch-name with a descriptive name for your branch (e.g., add-new-feature or fix-issue)
 
@@ -139,11 +130,13 @@ After making changes, stage the files and commit them with a meaningful message:
 ```bash
 git add .
 git commit -m "Add feature or fix issue"
+```
 
 ### 5. Push to the branch
 Push the branch to your forked repository.
 ```bash
 git push origin feature-branch-name
+```
 
 ### 6. Create a Pull Request
 Go to the original repository and open a Pull Request (PR) from your branch. Add a clear description of the changes you've made
