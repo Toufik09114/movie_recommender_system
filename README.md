@@ -49,54 +49,25 @@ git clone https://github.com/Toufik09114/movie-recommendation-system.git
 </div>
 
 2. __Navigate to the Project Directory:__
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-    <div class="code-container">
+<div class="code-container">
         <button class="copy-button" onclick="copyCode()">Copy</button>
         <pre><code id="code-snippet">
 cd movie-recommendation-system
-    </div>
-</body>
-</html>
-
+</div>
 
 3. __Install Dependencies: Install the required Python libraries using pip:__
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-    <div class="code-container">
+<div class="code-container">
         <button class="copy-button" onclick="copyCode()">Copy</button>
         <pre><code id="code-snippet">
 pip install -r requirements.txt
-    </div>
-</body>
-</html>
-
+</div>
 
 4. __Run the Application: Launch the Streamlit application:__
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-    <div class="code-container">
+<div class="code-container">
         <button class="copy-button" onclick="copyCode()">Copy</button>
         <pre><code id="code-snippet">
 streamlit run app.py
-    </div>
-</body>
-</html>
+</div>
 
 ***
 
@@ -146,16 +117,7 @@ Contributions are welcome! To contribute:
 
 ## Demo.
 [Watch the video](https://github.com/Toufik09114/movie_recommender_system/blob/main/movie_recommendation_video.mp4)
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-    <video width="320" height="240" controls>
-  <source src="path/to/your/video.mp4" type="video/mp4">
+<video width="320" height="240" controls>
+  <source src="(https://github.com/Toufik09114/movie_recommender_system/blob/main/movie_recommendation_video.mp4)" type="video/mp4">
   Your browser does not support the video tag.
-    </video>
-</body>
-</html>
+</video>
